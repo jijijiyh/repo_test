@@ -4,8 +4,11 @@ title = "repository"
 theme = "sans"
 
 [params]
-  description = "A minimal blog"
+  description = "a minimal blog"
   author = "ji"
+  
+  [params.posts]
+    readingSpeed = 200
 
 [[menu.main]]
   name = "home"
