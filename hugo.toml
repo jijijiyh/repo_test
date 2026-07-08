@@ -1,3 +1,28 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://jijijiyh.github.io/"
+locale = "en-us"
+title = "repository"
+theme = "sans"
+
+[params]
+  description = "A minimal blog"
+  author = "ji"
+
+[[menu.main]]
+  name = "home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "blog"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "about"
+  url = "/about/"
+  weight = 3
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
