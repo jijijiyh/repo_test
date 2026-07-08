@@ -1,12 +1,15 @@
-baseURL = "https://jijijiyh.github.io/"
+baseURL = "https://jirepository.com/"
 locale = "en-us"
-title = "repository"
+title = "repo:ji"
 theme = "sans"
 
 [params]
   description = "a minimal blog"
   author = "ji"
-  
+  showDarkModeToggle = true    # <-- Put these right here!
+  showSearchIcon = true
+  showGoToTop = true
+
   [params.posts]
     readingSpeed = 200
 
