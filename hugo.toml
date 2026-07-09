@@ -1,14 +1,29 @@
 baseURL = "https://jirepository.com/"
 locale = "en-us"
-title = "repo:ji"
+title = "repository"
 theme = "sans"
 
 [params]
   description = "a minimal blog"
   author = "ji"
-  showDarkModeToggle = true    # <-- Put these right here!
+  showDarkModeToggle = true
   showSearchIcon = true
   showGoToTop = true
+
+  [params.homepage]
+    onlyPostsInHomePage = false
+    homePageLogo = false
+    homePageTitle = ":D"
+    homePageTagLine = "垃圾桶"
+    homePageAbout = "hello, doodles, etc"
+    homePageSummaryLength = 500
+    homePagePostDate = false
+    dateFormat = "2 Jan 2006"
+    showSocialLinksHome = false
+
+  [params.theme]
+    heroSectionColor = "white"
+    darkHeroSectionColor = "black"
 
   [params.posts]
     readingSpeed = 200
@@ -19,7 +34,7 @@ theme = "sans"
   weight = 1
 
 [[menu.main]]
-  name = "blog"
+  name = "posts"
   url = "/posts/"
   weight = 2
 
@@ -29,6 +44,6 @@ theme = "sans"
   weight = 3
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
-  author = "authors"
+category = "categories"
+tag = "tags"
+author = "authors"
