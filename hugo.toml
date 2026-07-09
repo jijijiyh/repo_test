@@ -12,10 +12,11 @@ theme = "sans"
 
   [params.homepage]
     onlyPostsInHomePage = false
-    homePageLogo = false
+    homePageLogo = true
     homePageTitle = ":D"
     homePageTagLine = "垃圾桶"
-    homePageAbout = "hello, doodles, etc"
+    homePageLogoPath = 'avatar.JPG'
+    homePageAbout = "蘭's doodles, hello page, etc"
     homePageSummaryLength = 500
     homePagePostDate = false
     dateFormat = "2 Jan 2006"
